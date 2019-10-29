@@ -1,1 +1,1 @@
-# Python
+# Basi del linguaggio Python
