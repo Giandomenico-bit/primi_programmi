@@ -1,7 +1,7 @@
 # Numero pari o dispari
 
 value = input( "Enter a value : ")
-floatValue = int( value ) #cast esplicito
+intValue = int( value ) #cast esplicito
 
 if value != floatValue :
     print( "Il numero non appartiene a Z")
