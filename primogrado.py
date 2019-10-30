@@ -7,8 +7,8 @@ print( a,"x + b = 0" )
 b = input( "Inserisci un valore per b : ")
 print( a,"x +",b,"= 0" )
 
-a = float( a )
-b = float( b )
+a = int( a )
+b = int( b )
 
 if a == 0 and b == 0 :
     print( "L'equazione ammette infinite soluzioni" )
