@@ -8,7 +8,7 @@ print( "Calcolo del volume di un cubo o di una sfera" )
 print( "1 - cubo, 2 - sfera" )
 choice = input( "? " )
 
-choice = int( choice )
+choice = int( choice ) #cast esplicito
 if choice == 1 :
     side = input( "Lato del cubo : ")
     side = float( side )
@@ -19,7 +19,7 @@ if choice == 1 :
 elif choice == 2 :
     radius = input( "Raggio della sfera : ")
 
-    radius = float( radius )
+    radius = float( radius ) #cast esplicito
     volume = 4.0/3.0 * math.pi * radius * radius * radius
 
     print( "La sfera di raggio", radius, "ha volume", volume )
