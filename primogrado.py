@@ -10,8 +10,10 @@ print( a,"x +",b,"= 0" )
 a = float( a )
 b = float( b )
 
-if a == 0 :
+if a == 0 and b == 0 :
+    print( "L'equazione ammette infinite soluzioni" )
+elif a == 0 :
     print( "Equazione impossibile" )
 else :
-    x = -( b / a ) 
+    x = -( b / a )
     print( "Il valore di x e' : ", x )
