@@ -4,7 +4,7 @@
 import math
 
 radius = input( "Enter radius : ")
-radius = float( radius )   #cast esplicito
+radius = int( radius )   #cast esplicito
 
 area = 4.0 * math.pi * radius * radius
 volume = 4.0/3.0 * math.pi * radius * radius * radius
