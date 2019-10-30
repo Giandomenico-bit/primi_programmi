@@ -2,7 +2,7 @@
 
 value = input( "Enter a value : " )
 
-value = float( value )
+value = int( value )
 result = value * 2
 
 print( result )
