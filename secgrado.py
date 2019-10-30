@@ -9,9 +9,9 @@ a = input( "Inserisci il valore di a : ")
 b = input( "Inserisci il valore di b : ")
 c = input( "Inserisci il valore di c : ")
 
-a = float( a )
-b = float( b )
-c = float( c )
+a = int( a )
+b = int( b )
+c = int( c )
 
 delta = b * b - ( 4.0 * a * c )
 
