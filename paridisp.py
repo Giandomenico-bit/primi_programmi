@@ -6,4 +6,4 @@ value = int( value ) #cast esplicito
 if value % 2 :
     print( "Il numero e' dispari" )
 else :
-    print( "Il nuemro e' pari" )
+    print( "Il numero e' pari" )
