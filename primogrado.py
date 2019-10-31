@@ -15,5 +15,5 @@ if a == 0 and b == 0 :
 elif a == 0 :
     print( "Equazione impossibile" )
 else :
-    x = -( b / a )
+    x = -( float( b ) / float( a ) )
     print( "Il valore di x e' : ", x )
