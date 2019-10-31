@@ -13,8 +13,6 @@ a = int( a )
 b = int( b )
 c = int( c )
 
-delta = b * b - ( 4.0 * a * c )
-
 if a == 0 and b == 0 and c == 0 :
     print( "L'equazione ammette infinite soluzioni" )
 
@@ -26,6 +24,8 @@ elif a == 0 :
     print( "Soluzione :",x )
 
 else :
+
+delta = b * b - ( 4.0 * a * c )
 
     if delta > 0 :
 
