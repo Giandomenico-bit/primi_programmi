@@ -25,8 +25,7 @@ elif a == 0 :
 
 else :
 
-delta = b * b - ( 4.0 * a * c )
-
+    delta = b * b - ( 4.0 * a * c )
     if delta > 0 :
 
         x1 = ( -b + sqrt( delta ) ) /  2.0 * a
