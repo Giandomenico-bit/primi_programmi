@@ -8,16 +8,22 @@ consumo = input( "Consumo orario ( in galloni/h ) : ")
 carburante = float( carburante )
 consumo = float( consumo )
 
-ore = carburante / consumo
+if carburante < 0 or consumo < 0 :
 
-hour = int( ore )
-resto = ore - hour
-minuti = 60 * resto
+    print( "L'input non puo' essere negativo" )
 
-min = int( minuti )
-resto = minuti - min
+else :
 
-secondi = 60 * resto
-sec = int( secondi )
+    ore = carburante / consumo
 
-print( "Tempo di volo : ", hour ,"h", min , "min", sec ,"sec" )
+    hour = int( ore )
+    resto = ore - hour
+    minuti = 60 * resto
+
+    min = int( minuti )
+    resto = minuti - min
+
+    secondi = 60 * resto
+    sec = int( secondi )
+
+    print( "Tempo di volo : ", hour ,"h", min , "min", sec ,"sec" )
