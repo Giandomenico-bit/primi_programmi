@@ -5,7 +5,7 @@
 # Suggerimento: non esiste una funzione in
 # grado di ottenere in input un numero intero.
 
-valore = input( "Enter a value : " )
+valore = input( "Inserisci valore : " )
 
 valore = int( valore )
 res = valore * 2
