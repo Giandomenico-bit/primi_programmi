@@ -1,9 +1,11 @@
-# Numero pari o dispari
+# Creare un programma paridisp.py che dica
+# se il numero intero inserito
+# dall'utente sia pari o dispari.
 
-value = input( "Enter a value : ")
-value = int( value ) #cast esplicito
+valore = input( "Inserisci valore : ")
+valore = int( valore ) # cast esplicito
 
-if value % 2 == 0 :
+if valore % 2 == 0 :
     print( "Il numero e' pari" )
 else :
     print( "Il numero e' pari" )
