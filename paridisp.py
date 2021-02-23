@@ -8,4 +8,4 @@ valore = int( valore ) # cast esplicito
 if valore % 2 == 0 :
     print( "Il numero e' pari" )
 else :
-    print( "Il numero e' pari" )
+    print( "Il numero e' dispari" )
