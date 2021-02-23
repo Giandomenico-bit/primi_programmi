@@ -33,4 +33,4 @@ if importo >= 0 :
     print( "Biglietti da $1  : ", banconota1 )
 
 else :
-    print( "L'importo nn puo' essere negativo" )
+    print( "L'importo non puo' essere negativo" )
