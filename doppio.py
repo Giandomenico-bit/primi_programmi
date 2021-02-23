@@ -1,8 +1,13 @@
-# Calcolo del volume di un cubo dato un lato
+# Creare un programma doppio.py che chieda
+# all'utente di inserire un numero intero
+# per poi stamparne il doppio.
 
-value = input( "Enter a value : " )
+# Suggerimento: non esiste una funzione in
+# grado di ottenere in input un numero intero.
 
-value = int( value )
-result = value * 2
+valore = input( "Enter a value : " )
 
-print( result )
+valore = int( valore )
+res = valore * 2
+
+print( res )
